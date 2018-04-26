@@ -1,7 +1,8 @@
 # font-end-interview
 font-end-interview-QA
 
-1、前端如何自动传cookie：
+1、前端如何自动传cookie:
+
     非跨域下：
 	在HTTP Request请求头加上 Cookie: header 发送给浏览器；
 
@@ -11,15 +12,17 @@ font-end-interview-QA
                     Access-Control-Allow-Origin: 特定域名不能为*
 
 2、JS为什么是单线程运行的：(JS运行机制)
-   作为浏览器的脚本语言，Javascript的主要用途是与用户互动，以及操作dom，
-   这就决定了它只能是单线程的，否则会带来复杂的同步问题。例如：多线程同时
-   修改dom就会造成混乱。
 
-   =》任务队列 =》同步任务和异步任务 =》EventLoop（事件循环）
+    作为浏览器的脚本语言，Javascript的主要用途是与用户互动，以及操作dom，
+    这就决定了它只能是单线程的，否则会带来复杂的同步问题。例如：多线程同时
+    修改dom就会造成混乱。
+
+    =》任务队列 =》同步任务和异步任务 =》EventLoop（事件循环）
 
 JS方面:
 
 1、let与var的区别：
+
     if (!('a' in window)) {
         var a = 1;   
     }
