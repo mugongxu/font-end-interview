@@ -22,6 +22,12 @@ font-end-interview-QA
 3、谈谈你对跨域的理解
 
 
+HTML方面：
+
+1、meta标签
+	<meta http-equiv="X-UA-Compatible" content="">
+
+
 JS方面:
 
 1、let与var的区别：
@@ -116,6 +122,8 @@ JS方面:
 	document.ready => $(function() { // do something }) => $(document).ready(function () {});
 	window.onload => $(window).load(function () {})
 
+
+
 CSS方面：
 
 1、伪类和伪元素的区别
@@ -169,10 +177,21 @@ CSS方面：
 
 库/框架方面：
 
-1、谈谈你对双向绑定的理解
+1、谈谈你对数据双向绑定的理解
+
+
 
 工程化方面：
 
 1、git-flow的认识
+
+	工作流程
+	git-flow并不是要替代Git，它仅仅是非常聪明有效地把标准的Git命令用脚本组合起来。
+	
+
+
+学习方面
+
+1、最近在学什么，能不能分享一下
 
 
